@@ -22,9 +22,9 @@ Or install it yourself as:
 
 ## Usage
 For Blitz bandung
-![](stack.gif)
-For StackOverFlow
 ![](blitz.gif)
+For StackOverFlow
+![](stack.gif)
 
     $ okbot
     Commands:
