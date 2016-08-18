@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "okbot"
   spec.version       = Okbot::VERSION
   spec.authors       = ["zainal mustofa"]
-  spec.email         = ["zenald92@gmail.com"]
+  spec.email         = ["zainalmustof@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{BLITZ and StackOverFlow}
+  spec.description   = %q{Your smart assistances}
+  spec.homepage      = "http://rubygems.org/gems/okbot"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -25,7 +25,17 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+  spec.license       = 'MIT'
 
+  spec.add_dependency 'thor', "~> 0.19.1"
+  spec.add_dependency 'httparty', "~> 0.14.0"
+  spec.add_dependency 'rainbow', "~> 2.0.0"
+  spec.add_dependency 'nokogiri', '~> 1.6.8'
+  spec.add_dependency 'json', "~> 1.8.3"
+  spec.add_dependency 'highline', "~> 1.7.8"
+  spec.add_dependency 'terminal-table', "~> 1.6.0"
+
+  spec.add_development_dependency 'pry', "~> 0.10.4"
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
 end
