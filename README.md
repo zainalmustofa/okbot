@@ -1,8 +1,8 @@
 # Okbot
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/okbot`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Gem Version](https://badge.fury.io/rb/okbot.svg)](https://badge.fury.io/rb/okbot)
 
-TODO: Delete this and the text above, and describe your gem
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/okbot`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 ## Installation
 
@@ -21,8 +21,21 @@ Or install it yourself as:
     $ gem install okbot
 
 ## Usage
+For Blitz bandung
+![](blitz.gif)
+For StackOverFlow
+![](stack.gif)
 
-TODO: Write usage instructions here
+    $ okbot
+    Commands:
+      okbot blitz           # Get schedule theater on blitz bandung
+      okbot help [COMMAND]  # Describe available commands or one specific command
+      okbot spin_it         # FOR LOADING
+      okbot stack COMMANDS  # Get Stack overflow question
+    
+    $ okbot blitz
+    $ okbot stack title
+
 
 ## Development
 
